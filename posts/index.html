@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles.css"> 
+
+        <title> My Articles: Veronica's Voice </title>
+    
+        <style>
+        /* styling for posts grid */
+        .full-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        body {
+            font-family: "Roca", sans-serif; 
+        }
+
+        .article-item {
+            background-color: #fff3f6;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .article-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .article-item a {
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            color: #B07A8C;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .article-item a:hover {
+            color: #77555f;
+        }
+
+        .article-summary {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+            font-family: "Area", sans-serif; 
+        }
+
+        .article-category {
+            font-style: italic;
+            font-size: 14px;
+            color: #999;
+            font-family: "Area", sans-serif; 
+        }
+        </style>
+        <script></script>
+    </head>
+
+    <body>
+        <header> 
+            <h1 id="blogtitle"> Veronica's Voice </h1>
+            <nav>
+                <ul>
+                    <li><a href="../home/index.html"> home </a></li>
+                    <li><a href="../about/index.html"> about </a></li>
+                    <li><a href="../posts/index.html"> posts </a></li>
+                    <li><a href="#contact"> contact me! </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- posts grid layout -->
+        <section class = "full-list">
+            <div class = "article-item">
+                <a href = "../articles/article1.html"> Hair Science: The Chemistry of Curly Hair </a>
+                <p class = "article-summary"> Discover the fascinating biological reasons behind why we have different hair textures. </p>
+                <p class = "article-category"> Category: Science</p>
+            </div>
+
+            <div class = "article-item">
+                <a href = "../articles/article2.html"> Why Are There Indians in the Caribbean? </a>
+                <p class = "article-summary">  Dive deep into this history of how Indians first migrated to the Caribbean. </p>
+                <p class = "article-category"> Category: Culture, History </p>
+            </div>
+
+            <div class = "article-item">
+                <a href = "../articles/article3.html"> The Impact of Racial Biases in Policing and Convictions </a>
+                <p class = "article-summary"> Explore the various reasons why people of color are overrepresented in police convictions and exonerations.  </p>
+                <p class = "article-category"> Category: Race, History </p>
+            </div>
+
+            <div class = "article-item">
+                <a href = "../articles/article4.html"> Exonerations of People of Color We Should Never Forget </a>
+                <p class = "article-summary"> 5 people of color who were wrongfully exonerated but later convicted. </p>
+                <p class = "article-category"> Category: Race, History </p>
+            </div>
+
+            <div class = "article-item">
+                <a href = "../articles/article5.html"> The Science behind Melanin </a>
+                <p class = "article-summary"> Discover the biological reasons as to why our skin color is what it is because of melanin. </p>
+                <p class = "article-category"> Category: Science </p>
+            </div>
+
+            <div class = "article-item">
+                <a href = "../articles/article6.html"> 5 Important Historical Women That Have Impacted STEM Fields </a>
+                <p class = "article-summary"> 5 women throughout history that have made significant contributions to technology and other fields in STEM </p>
+                <p class = "article-category"> Category: Gender, History, Science </p>
+            </div>
+
+            <div class = "article-item">
+                <a href = "../articles/article7.html"> The Psychology Behind Code-Switching </a>
+                <p class = "article-summary"> Learn what code-switching is and how minorities often use it at the cost of their identity.</p>
+                <p class = "article-category"> Category: Race, Culture </p>
+            </div>
+
+            <div class = "article-item">
+                <a href = "../articles/article8.html"> Gender Bias in Healthcare </a>
+                <p class = "article-summary"> How gender biases are affecting healthacare diagnoses and treatments.  </p>
+                <p class = "article-category"> Category: Gender, Science </p>
+            </div>
+
+            <div class = "article-item">
+                <a href = "../articles/article9.html"> My Favorite Trinidadian Foods! </a>
+                <p class = "article-summary"> Learn what my favorite Trinidadian foods are and their ingredients! </p>
+                <p class = "article-category"> Category: Culture </p>
+            </div>
+
+            <div class = "article-item">
+                <a href = "../articles/article10.html"> Bias in Facial Recognition Technology </a>
+                <p class = "article-summary"> How racial biases were introduced to facial recognition technologies and their potential impacts. </p>
+                <p class = "article-category"> Category: Race, Technology </p>
+            </div>
+        </section>
+
+    </body>
+</html>
